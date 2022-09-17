@@ -16,7 +16,7 @@
 } */
 
 /* Dropping */
-h1,
+/* h1,
 h2,
 h3,
 h4,
@@ -45,15 +45,82 @@ img {
 .list {
   list-style: none;
 }
-.container {
+
+/* .section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+} */
+
+/* .container {
   width: 1200px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
+} */
+
+/* .modal-open-btn {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 10px 32px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  color: var(--white-accent-color);
+  background-color: var(--accent-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border: none;
+  transition: background-color var(--transition-dur-and-func);
 }
+.modal-open-btn:hover,
+.modal-open-btn:focus {
+  background-color: var(--blue-background-accent-color);
+} 
+
+.portfolio-open-btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  background: var(--white-background-accent-color);
+  color: var(--dark-accent-color);
+  border-radius: 4px;
+  border: none;
+  transition: background-color var(--transition-dur-and-func), color var(--transition-dur-and-func);
+}
+.border-btn {
+  padding: 6px 22px;
+}
+.first-btn {
+  padding: 6px 25px;
+}
+.portfolio-open-btn:hover,
+.portfolio-open-btn:focus {
+  background-color: var(--accent-color);
+  color: var(--white-accent-color);
+}
+.modal-close-btn {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: var(--white-accent-color);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 0px;
+}
+*/
+
 
 /* HEADER */
+
+
 .page-header {
   padding-top: 24px;
   padding-bottom: 25px;
@@ -189,34 +256,12 @@ img {
   text-transform: uppercase;
   color: var(--white-accent-color);
 }
-.modal-open-btn {
-  display: block;
-  margin-right: auto;
-  margin-left: auto;
-  padding: 10px 32px;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.88;
-  letter-spacing: 0.06em;
-  color: var(--white-accent-color);
-  background-color: var(--accent-color);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
-  border: none;
-  transition: background-color var(--transition-dur-and-func);
-}
-.modal-open-btn:hover,
-.modal-open-btn:focus {
-  background-color: var(--blue-background-accent-color);
-}
+
 .title {
   margin-bottom: 50px;
 }
 
-.section {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
+
 
 /* ADVANTAGES */
 .advantages {
@@ -484,27 +529,7 @@ img {
   border: 1px solid var(--white-border-color);
   border-top: none;
 }
-.portfolio-open-btn {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.6;
-  background: var(--white-background-accent-color);
-  color: var(--dark-accent-color);
-  border-radius: 4px;
-  border: none;
-  transition: background-color var(--transition-dur-and-func), color var(--transition-dur-and-func);
-}
-.border-button {
-  padding: 6px 22px;
-}
-.first-button {
-  padding: 6px 25px;
-}
-.portfolio-open-btn:hover,
-.portfolio-open-btn:focus {
-  background-color: var(--accent-color);
-  color: var(--white-accent-color);
-}
+
 .portfolio-img-item {
   font-weight: 700;
   font-size: 18px;
@@ -595,20 +620,7 @@ img {
   background-color: var(--white-accent-color);
   padding: 40px;
 }
-.modal-close-btn {
-  position: absolute;
-  top: 8px;
-  right: 8px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 30px;
-  height: 30px;
-  border-radius: 50%;
-  background-color: var(--white-accent-color);
-  border: 1px solid rgba(0, 0, 0, 0.1);
-  padding: 0px;
-}
+
 .modal-close-icon:hover,
 .modal-close-icon:focus {
   fill: var(--accent-color);
