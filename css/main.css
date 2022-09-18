@@ -123,4 +123,125 @@ img {
   background-color: var(--white-accent-color);
   border: 1px solid rgba(0, 0, 0, 0.1);
   padding: 0px;
+}
+
+.title {
+  margin-bottom: 50px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.page-header {
+  padding-top: 24px;
+  padding-bottom: 25px;
+  border-bottom: 1px solid #ececec;
+}
+
+.page-header-container {
+  display: flex;
+  align-items: center;
+}
+
+.page-navigation {
+  display: flex;
+  align-items: center;
+}
+
+.menu {
+  display: flex;
+  column-gap: 50px;
+}
+
+.menu-list-contact {
+  display: flex;
+  margin-left: auto;
+}
+
+.header-page-logo {
+  margin-right: 93px;
+}
+
+.page-logo {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--accent-color);
+}
+
+.logo-studio {
+  color: var(--black-accent-color);
+}
+
+.menu .link.current {
+  color: var(--accent-color);
+}
+
+.menu-link {
+  position: relative;
+  padding-bottom: 32px;
+  padding-top: 32px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--dark-accent-color);
+  transition: color var(--transition-dur-and-func);
+}
+
+.menu-link:hover,
+.menu-link:focus {
+  color: var(--accent-color);
+}
+
+.contact-mail {
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--grey-accent-color);
+  margin-right: 30px;
+  transition: color var(--transition-dur-and-func);
+}
+
+.contact-mail:hover,
+.contact-mail:focus {
+  color: var(--accent-color);
+}
+
+.contact-phone-number {
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--grey-accent-color);
+  transition: color var(--transition-dur-and-func);
+}
+
+.contact-phone-number:hover,
+.contact-phone-number:focus {
+  color: var(--accent-color);
+}
+
+.icon-smartphone {
+  width: 10px;
+  height: 16px;
+  margin-right: 10px;
+  fill: currentColor;
+}
+
+.envelope-image {
+  width: 16px;
+  height: 12px;
+  margin-right: 10px;
+  fill: currentColor;
 }/*# sourceMappingURL=main.css.map */
