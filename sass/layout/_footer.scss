@@ -7,16 +7,16 @@
     display: flex;
     align-items: baseline;
 }
-.container-address-footer {
+.footer-address {
     margin-right: 70px;
 }
-.address-footer {
+.footer__address-area {
     margin-top: 20px;
 }
-.footer-address-item:not(:last-child) {
+.footer__address-item:not(:last-child) {
     margin-bottom: 10px;
 }
-.address-link {
+.footer__address-link {
     font-style: normal;
     font-size: 14px;
     line-height: 1.7;
@@ -24,7 +24,7 @@
     color: var(--white-accent-color);
 }
 
-.address-contact {
+.footer__address-contact {
     font-style: normal;
     font-size: 14px;
     line-height: 1.7;
@@ -38,7 +38,7 @@
     }
 }
 
-.footer-title {
+.footer__title {
     font-weight: 700;
     font-size: 14px;
     letter-spacing: 0.03em;
@@ -46,12 +46,12 @@
     color: var(--white-accent-color);
     margin-bottom: 20px;
 }
-.footer-list {
+.footer__social-list {
     display: flex;
     justify-content: flex-start;
     gap: 10px;
 }
-.footer-list-link {
+.footer__social-list-link {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -67,7 +67,7 @@
     }
 }
 
-.footer-list-icon {
+.footer__social-list-icon {
     width: 20px;
     height: 20px;
     fill: var(--white-accent-color);

@@ -1,4 +1,4 @@
-.customer-list-link {
+.customers__list-link {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -14,14 +14,14 @@
         border-radius: 4px;
     }   
 }
-.customer-list-icon {
+.customers__list-icon {
     width: 106px;
     height: 60px;
     fill: var(--grey-second-accent-color);
     transition: fill var(--transition-dur-and-func);
 
-    .customer-list-link:hover &,
-    .customer-list-link:focus & {
+    .customers__list-link:hover &,
+    .customers__list-link:focus & {
         fill: var(--accent-color);
     }
 }
