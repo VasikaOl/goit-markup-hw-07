@@ -40,19 +40,20 @@
     height: 44px;
     border-radius: 50px;
     transition: background-color var(--transition-dur-and-func);
+
+    &:hover,
+    &:focus {
+        background-color: var(--accent-color);
+    }
 }
 .social-list-icon {
     width: 20px;
     height: 20px;
     fill: var(--grey-second-accent-color);
     transition: fill var(--transition-dur-and-func);
-}
-.social-list-link:hover,
-.social-list-link:focus {
-    background-color: var(--accent-color);
-}
 
-.social-list-link:hover .social-list-icon,
-.social-list-link:focus .social-list-icon {
-    fill: var(--white-accent-color);
+    .social-list-link:hover &,
+    .social-list-link:focus & {
+        fill: var(--white-accent-color);
+    }
 }

@@ -13,12 +13,13 @@
     border-radius: 4px;
     border: none;
     transition: background-color var(--transition-dur-and-func);
+    
+    &:hover,
+    &:focus {
+        background-color: var(--blue-background-accent-color);
+    }
 }
 
-.modal-open-btn:hover,
-.modal-open-btn:focus {
-    background-color: var(--blue-background-accent-color);
-}
 .portfolio-open-btn {
     font-weight: 500;
     font-size: 16px;
@@ -28,32 +29,16 @@
     border-radius: 4px;
     border: none;
     transition: background-color var(--transition-dur-and-func), color var(--transition-dur-and-func);
-}
 
+    &:hover,
+    &:focus {
+        background-color: var(--accent-color);
+        color: var(--white-accent-color);
+    }
+}
 .border-btn {
     padding: 6px 22px;
 }
-
 .first-btn {
     padding: 6px 25px;
-}
-
-.portfolio-open-btn:hover,
-.portfolio-open-btn:focus {
-    background-color: var(--accent-color);
-    color: var(--white-accent-color);
-}
-.modal-close-btn {
-    position: absolute;
-    top: 8px;
-    right: 8px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-    background-color: var(--white-accent-color);
-    border: 1px solid rgba(0, 0, 0, 0.1);
-    padding: 0px;
 }

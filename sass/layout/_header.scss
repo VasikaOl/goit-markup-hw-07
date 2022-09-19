@@ -3,7 +3,7 @@
     padding-bottom: 25px;
     border-bottom: 1px solid #ececec;
 }
-.page-header-container {
+.page-header__container {
     display: flex;
     align-items: center;
 }
@@ -15,7 +15,7 @@
 
 .menu {
     display: flex;
-    column-gap: 50px;
+    column-gap: 50px;   
 }
 
 .menu-list-contact {
@@ -26,7 +26,7 @@
 .menu .link.current {
     color: var(--accent-color);
 }
-.menu-link {
+.menu__link {
     position: relative;
     padding-bottom: 32px;
     padding-top: 32px;
@@ -36,11 +36,11 @@
     letter-spacing: 0.02em;
     color: var(--dark-accent-color);
     transition: color var(--transition-dur-and-func);
-}
 
-.menu-link:hover,
-.menu-link:focus {
-    color: var(--accent-color);
+    &:hover,
+    &:focus {
+        color: var(--accent-color);
+    }
 }
 
 .contact-mail {
@@ -53,11 +53,11 @@
     color: var(--grey-accent-color);
     margin-right: 30px;
     transition: color var(--transition-dur-and-func);
-}
 
-.contact-mail:hover,
-.contact-mail:focus {
-    color: var(--accent-color);
+    &:hover,
+    &:focus {
+        color: var(--accent-color);
+    }
 }
 
 .contact-phone-number {
@@ -69,11 +69,11 @@
     letter-spacing: 0.02em;
     color: var(--grey-accent-color);
     transition: color var(--transition-dur-and-func);
-}
 
-.contact-phone-number:hover,
-.contact-phone-number:focus {
-    color: var(--accent-color);
+    &:hover,
+    &:focus {
+        color: var(--accent-color);
+    }
 }
 
 .icon-smartphone {

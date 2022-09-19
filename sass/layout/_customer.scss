@@ -7,19 +7,22 @@
     border: 1px solid var(--grey-second-accent-color);
     border-radius: 4px;
     transition: border var(--transition-dur-and-func);
+    
+    &:hover,
+    &:focus {
+        border: 1px solid var(--accent-color);
+        border-radius: 4px;
+    }   
 }
 .customer-list-icon {
     width: 106px;
     height: 60px;
     fill: var(--grey-second-accent-color);
     transition: fill var(--transition-dur-and-func);
+
+    .customer-list-link:hover &,
+    .customer-list-link:focus & {
+        fill: var(--accent-color);
+    }
 }
-.customer-list-link:hover,
-.customer-list-link:focus {
-    border: 1px solid var(--accent-color);
-    border-radius: 4px;
-}
-.customer-list-link:hover .customer-list-icon,
-.customer-list-link:focus .customer-list-icon {
-    fill: var(--accent-color);
-}
+

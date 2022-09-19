@@ -20,19 +20,19 @@
   <body>
     <!--HEADER-->
     <header class="page-header">
-      <div class="container page-header-container">
+      <div class="container page-header__container">
         <nav class="page-navigation">
-          <a class="header-page-logo page-logo link" href="./index.html"
+          <a class="logo page-logo link" href="./index.html"
             >Web<span class="logo-studio">Studio</span>
           </a>
           <ul class="menu list">
-            <li>
-              <a class="menu-link link current" href="./index.html">Студія</a>
+            <li class="menu__item">
+              <a class="menu__link link current" href="./index.html">Студія</a>
             </li>
-            <li>
-              <a class="menu-link link" href="./portfolio.html">Портфоліо</a>
+            <li class="menu__item">
+              <a class="menu__link link" href="./portfolio.html">Портфоліо</a>
             </li>
-            <li><a class="menu-link link" href="#">Контакти</a></li>
+            <li class="menu__item"><a class="menu__link link" href="#">Контакти</a></li>
           </ul>
         </nav>
         <ul class="menu-list-contact list">
@@ -58,38 +58,38 @@
     <main>
       <!--HERO-->
       <div class="container-hero">
-        <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
+        <h1 class="container-hero__title">Ефективні рішення для вашого бізнесу</h1>
         <button class="modal-open-btn" type="button" data-modal-open>Замовити послугу</button>
       </div>
       <!--ADVANTAGES-->
       <section class="section">
-        <div class="container">
-          <h2 class="hidden-title">Наші переваги</h2>
-          <ul class="list-item list">
+        <div class="advantages-container container">
+          <h2 class="visually-hidden">Наші переваги</h2>
+          <ul class="advantages-list list-item list">
             <li>
-              <a href="" class="advantages-list-link">
-                <svg lang="en" aria-label="antenna icon" class="advantages-list-icon">
+              <a href="" class="advantages-list_link">
+                <svg lang="en" aria-label="antenna icon" class="advantages-list_icon">
                   <use href="./images/symbol-defs.svg#icon-antenna"></use>
                 </svg>
               </a>
             </li>
             <li>
-              <a href="" class="advantages-list-link">
-                <svg lang="en" aria-label="clock icon" class="advantages-list-icon">
+              <a href="" class="advantages-list_link">
+                <svg lang="en" aria-label="clock icon" class="advantages-list_icon">
                   <use href="./images/symbol-defs.svg#icon-clock"></use>
                 </svg>
               </a>
             </li>
             <li>
-              <a href="" class="advantages-list-link">
-                <svg lang="en" aria-label="diagram icon" class="advantages-list-icon">
+              <a href="" class="advantages-list_link">
+                <svg lang="en" aria-label="diagram icon" class="advantages-list_icon">
                   <use href="./images/symbol-defs.svg#icon-diagram"></use>
                 </svg>
               </a>
             </li>
             <li>
-              <a href="" class="advantages-list-link">
-                <svg lang="en" aria-label="astronaut icon" class="advantages-list-icon">
+              <a href="" class="advantages-list_link">
+                <svg lang="en" aria-label="astronaut icon" class="advantages-list_icon">
                   <use href="./images/symbol-defs.svg#icon-astronaut"></use>
                 </svg>
               </a>
@@ -455,7 +455,7 @@
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button type="button" class="modal-close-btn" data-modal-close>
-          <svg class="modal-close-icon" width="18" height="18">
+          <svg width="18" height="18">
             <use href="./images/symbol-defs.svg#icon-close"></use>
           </svg>
         </button>
